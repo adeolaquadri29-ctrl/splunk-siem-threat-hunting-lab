@@ -1,0 +1,33 @@
++----------------------+
+
+|     Windows VM       |
+
+|----------------------|
+
+| Sysmon               |
+
+| Splunk Forwarder     |
+
++----------+-----------+
+
+           |
+
+           | Windows Logs
+
+           v
+
++----------------------+
+
+|     Ubuntu VM        |
+
+|----------------------|
+
+| Splunk Enterprise    |
+
+| Threat Hunting       |
+
+| Dashboards           |
+
+| Detection Rules      |
+
++----------------------+
