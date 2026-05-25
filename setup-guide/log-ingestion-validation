@@ -1,0 +1,28 @@
+Log Ingestion Validation
+
+Objective
+
+Validate successful ingestion of Windows and Sysmon logs into Splunk.
+
+Validation Searches
+
+Process Creation
+
+index=* EventCode=1
+
+PowerShell Activity
+
+index=* powershell.exe
+
+Encoded PowerShell Detection
+
+index=* powershell.exe *EncodedCommand*
+
+Outcome
+
+Successfully validated:
+
+* Sysmon telemetry ingestion
+* PowerShell monitoring
+* Threat hunting capability
+* Detection engineering workflow
